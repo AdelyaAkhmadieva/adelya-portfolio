@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Аделя Ахмадиева — веб-дизайн и разработка</title>
+  <meta name="description" content="Портфолио Адели Ахмадиевой: веб-дизайн, интерфейсы, карточки товаров и HTML/CSS-разработка.">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">К содержимому</a>
+
+  <div id="top"></div>
+  <header class="header">
+    <a class="logo" href="#top" aria-label="Аделя Ахмадиева">
+      <svg class="logo__mark" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="50" fill="#5C0627"/>
+        <g transform="translate(50 50) scale(1.111) translate(-39.79 -42.83)" fill="#FFFFFF" font-family="Unbounded, Arial, sans-serif" font-weight="600">
+          <text x="19.09" y="58.28" font-size="27.00" transform="rotate(255.0 19.09 58.28)" text-anchor="middle" dominant-baseline="central">А</text>
+          <text x="25.94" y="34.17" font-size="27.00" transform="rotate(303.3 25.94 34.17)" text-anchor="middle" dominant-baseline="central">А</text>
+          <text x="45.12" y="24.87" font-size="22.00" transform="rotate(349.0 45.12 24.87)" text-anchor="middle" dominant-baseline="central">а</text>
+          <text x="60.22" y="30.06" font-size="17.60" transform="rotate(387.1 60.22 30.06)" text-anchor="middle" dominant-baseline="central">а</text>
+          <text x="66.95" y="40.98" font-size="14.08" transform="rotate(422.0 66.95 40.98)" text-anchor="middle" dominant-baseline="central">а</text>
+          <text x="65.95" y="51.25" font-size="11.26" transform="rotate(454.5 65.95 51.25)" text-anchor="middle" dominant-baseline="central">а</text>
+          <text x="60.39" y="57.47" font-size="9.01" transform="rotate(485.7 60.39 57.47)" text-anchor="middle" dominant-baseline="central">а</text>
+          <text x="53.76" y="58.83" font-size="7.21" transform="rotate(516.9 53.76 58.83)" text-anchor="middle" dominant-baseline="central">а</text>
+          <text x="48.86" y="56.30" font-size="5.77" transform="rotate(550.2 48.86 56.30)" text-anchor="middle" dominant-baseline="central">а</text>
+          <text x="47.54" y="52.05" font-size="4.61" transform="rotate(590.2 47.54 52.05)" text-anchor="middle" dominant-baseline="central">а</text>
+        </g>
+      </svg>
+      <span class="logo__name" data-i18n="name">Аделя Ахмадиева</span>
+    </a>
+    <nav class="nav" id="navigation" aria-label="Основная навигация">
+      <a href="#works" data-i18n="navWorks">Работы</a>
+      <a href="#about" data-i18n="navAbout">Обо мне</a>
+      <a href="#skills" data-i18n="navSkills">Навыки</a>
+      <a href="#contact" data-i18n="navContact">Контакты</a>
+    </nav>
+    <a class="header__contact" href="#contact" data-i18n="discuss">Обсудить проект ↗</a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <button class="menu-toggle" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Открыть меню"><span></span><span></span></button>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__slab">
+        <div class="hero__copy">
+          <p class="hero__kicker"><span class="status-dot"></span><span data-i18n="kicker">Дизайн и веб-разработка</span></p>
+          <h1 class="hero__title" id="hero-title"><span data-i18n="hero1">От идеи</span> <span data-i18n="hero2">до сайта,</span> <span class="hero__accent" data-i18n="hero3">который цепляет.</span></h1>
+          <p class="hero__intro" data-i18n="intro">Я — Аделя. Создаю интерфейсы и карточки товаров, в которых визуальный характер встречается с удобством.</p>
+          <div class="hero__actions">
+            <a class="button button--lime" href="#works"><span data-i18n="cta">Смотреть работы</span><span aria-hidden="true">↗</span></a>
+            <a class="button button--ghost" href="https://t.me/akh_ar" target="_blank" rel="noopener"><span data-i18n="write">Написать мне</span><span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero__facts"><div><strong>06</strong><span data-i18n="factWorks">избранных работ</span></div><div><strong>UI/UX</strong><span data-i18n="factDesign">дизайн интерфейсов</span></div><div><strong>&lt;/&gt;</strong><span data-i18n="factCode">от макета до кода</span></div></div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="orbit orbit--one"></div><div class="orbit orbit--two"></div>
+          <span class="visual-label">SELECTED OBJECTS / 01—06</span>
+          <div class="object-card object-card--vision"><span>02 / APPLE VISION</span><img src="demos/assets/vision.png" alt="" fetchpriority="high"><b>Взгляд в будущее.</b></div>
+          <div class="object-card object-card--nike"><span>01 / NIKE</span><img src="demos/assets/nike-shoe.png" alt="" fetchpriority="high"><b>Made to move.</b></div>
+          <div class="floating-tag floating-tag--top"><span class="status-dot"></span>Figma → HTML / CSS</div>
+          <div class="floating-tag floating-tag--bottom"><span class="spark">✳</span><span data-i18n="visualTag">Дизайн с характером</span></div>
+          <span class="visual-coordinate">ADELYA © <span class="current-year"></span></span>
+        </div>
+      </div>
+      <div class="hero__caption"><span data-i18n="heroCaption">Веб-дизайнер. Разработчик. Преподаватель.</span><a href="#works"><span data-i18n="scroll">Листайте, чтобы познакомиться</span> ↓</a></div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" id="marquee"></div>
+    </div>
+
+    <!-- WORKS -->
+    <section class="works" id="works">
+      <div class="works__sticky">
+        <div class="works__head">
+          <h2 class="section-title reveal" data-i18n="worksTitle">Избранные работы</h2>
+          <p class="works__hint reveal" style="--i:1" data-i18n="worksHint">От карточки товара до интерфейса. Откройте любой проект и попробуйте его в действии.</p>
+          <span class="works__total"><span data-i18n="selected">Избранное</span> <b>01 — 06</b></span>
+        </div>
+        <div class="works__track" id="track" role="region" aria-label="Работы / Portfolio"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about__heading"><span class="eyebrow" data-i18n="aboutKicker">За каждым проектом — человек</span><h2 class="section-title reveal" data-i18n="aboutTitle">Привет, я Аделя.</h2><div class="about__monogram" aria-hidden="true">а<span>✳</span></div></div><div class="about__content">
+      <p class="about__lead reveal" style="--i:1" data-i18n="aboutLead">Рисую макеты в Figma и верстаю их на HTML и CSS. Работаю в штате и на фрилансе, а ещё учу детей основам веб-разработки.</p>
+      <ol class="principles">
+        <li class="reveal" style="--i:1">
+          <span class="principles__num">01</span>
+          <h3 data-i18n="p1Title">В найме</h3>
+          <p data-i18n="p1Text">Интерфейсы и сайты в роли штатного специалиста.</p>
+        </li>
+        <li class="reveal" style="--i:2">
+          <span class="principles__num">02</span>
+          <h3 data-i18n="p2Title">Фриланс</h3>
+          <p data-i18n="p2Text">Проекты для блогеров и экспертов.</p>
+        </li>
+        <li class="reveal" style="--i:3">
+          <span class="principles__num">03</span>
+          <h3 data-i18n="p3Title">Преподаю</h3>
+          <p data-i18n="p3Text">Основы веб-разработки для детей.</p>
+        </li>
+      </ol>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <div class="skills__heading"><span class="eyebrow">TOOLBOX / 07</span><h2 class="section-title reveal" data-i18n="skillsTitle">Мои инструменты</h2><p data-i18n="skillsIntro">Всё, чтобы пройти путь от первого наброска до работающего интерфейса.</p></div>
+      <ul class="skills__list">
+        <li class="reveal" style="--i:0">HTML</li>
+        <li class="reveal" style="--i:1">CSS</li>
+        <li class="reveal" style="--i:2">JavaScript</li>
+        <li class="reveal" style="--i:3">Figma</li>
+        <li class="reveal" style="--i:4">Adobe Photoshop</li>
+        <li class="reveal" style="--i:5">Adobe Illustrator</li>
+        <li class="reveal" style="--i:6">UI/UX</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <p class="contact__kicker reveal" data-i18n="contactKicker">Давайте создадим что-то классное.</p>
+      <h2 class="contact__title" data-i18n="contactTitle">Ваш следующий проект<br>начинается с «привет».</h2>
+      <a class="contact__big reveal" style="--i:1" href="mailto:adelya0803@list.ru">adelya0803@list.ru</a>
+      <div class="contact__decoration" aria-hidden="true">✳</div>
+      <div class="contact__links reveal" style="--i:2">
+        <a href="https://t.me/akh_ar" target="_blank" rel="noopener">Telegram <span aria-hidden="true">↗</span></a>
+        <a href="https://vk.ru/id670617482" target="_blank" rel="noopener">VK <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span data-i18n="name">Аделя Ахмадиева</span>
+    <span>© <span id="year"></span></span>
+    <a href="#top" data-i18n="toTop">Наверх ↑</a>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="lbTitle">
+    <div class="lightbox__head">
+      <p class="lightbox__label"><span id="lbNum"></span><b id="lbTitle"></b><span id="lbMeta"></span></p>
+      <div class="lightbox__controls">
+        <button type="button" id="lbPrev" aria-label="Предыдущая работа">←</button>
+        <button type="button" id="lbNext" aria-label="Следующая работа">→</button>
+        <button type="button" id="lbClose" aria-label="Закрыть">✕</button>
+      </div>
+    </div>
+    <div class="lightbox__body" id="lbBody"></div>
+  </div>
+
+
+  <noscript><p class="noscript-note">Для интерактивной галереи включите JavaScript. <a href="demos/nike.html">Nike</a> · <a href="demos/vision.html">Apple Vision</a> · <a href="demos/drone.html">MDR</a> · <a href="demos/buds.html">Samsung</a> · <a href="demos/dryer.html">Whoosh</a> · <a href="demos/fitness.html">Bexance</a></p></noscript>
+  <script src="script.js"></script>
+</body>
+</html>
